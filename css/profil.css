@@ -1,0 +1,53 @@
+body {
+  background-color: #f7f7f7;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.avatar-circle {
+  width: 100px;
+  height: 100px;
+  background-color: #a76a23;
+  color: white;
+  border-radius: 50%;
+  font-size: 40px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-card {
+  border-radius: 12px;
+  background-color: #fff;
+}
+
+.initial {
+  text-transform: uppercase;
+}
+
+.profile-card ul li {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  flex-wrap: wrap;
+  font-size: 15px;
+  color: #555;
+}
+
+.header-section h3 {
+  font-weight: 700;
+}
+
+.checklist-item {
+  background-color: #fff;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.checklist-item:hover {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+}
+
+.badge {
+  white-space: normal;
+  word-break: break-word;
+}
